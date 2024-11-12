@@ -1,3 +1,8 @@
+const fs = require("fs")
+const path = require("path")
+
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: [
     "./css/**/*.css",
